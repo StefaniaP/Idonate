@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stefy.idonate.Contactus">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="434dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:columnCount="1"
+        android:rowCount="9">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="129dp"
+            android:layout_height="42dp"
+            android:gravity="center_vertical"
+            android:text="@string/app_name"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="286dp"
+            android:layout_height="40dp"
+            android:gravity="fill_vertical"
+            android:text="@string/phonenumber"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myName"
+            android:layout_width="235dp"
+            android:layout_height="31dp"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="7"
+            android:text="@string/myphone"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailLabel"
+            android:layout_width="286dp"
+            android:layout_height="33dp"
+            android:gravity="fill_vertical"
+            android:text="@string/email_hint"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myEmail"
+            android:layout_width="248dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:text="@string/myemail"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addressLabel"
+            android:layout_width="286dp"
+            android:layout_height="62dp"
+            android:gravity="fill_vertical"
+            android:text="@string/address"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myAddress"
+            android:layout_width="248dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="@string/myAddress"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonOpenMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/buttonMap"
+            android:onClick="openMap"/>
+
+    </GridLayout>
+
+
+</FrameLayout>

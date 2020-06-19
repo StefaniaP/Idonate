@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stefy.idonate.Aboutus">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:columnCount="1"
+        android:rowCount="3">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="129dp"
+            android:layout_height="62dp"
+            android:gravity="center_vertical"
+            android:text="@string/app_name"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="286dp"
+            android:layout_height="272dp"
+            android:gravity="fill_vertical"
+            android:text="@string/aboutus"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myName"
+            android:layout_width="183dp"
+            android:layout_height="59dp"
+            android:layout_gravity="right|center"
+            android:text="@string/myName"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+
+
+
+</FrameLayout>

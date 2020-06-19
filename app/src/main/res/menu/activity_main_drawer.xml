@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/donate"
+            android:title="Νέα Δωρεά" />
+        <item
+            android:id="@+id/analytics"
+            android:title="Στατιστικά" />
+        <item
+            android:id="@+id/admin"
+            android:title="Διαχείριση"/>
+
+        <item
+            android:id="@+id/contactus"
+            android:title="Επικοινωνία" />
+        <item
+            android:id="@+id/aboutus"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="Έξοδος"
+            />
+    </group>
+</menu>

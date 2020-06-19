@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stefy.idonate.Donate">
+
+    <GridLayout
+        android:layout_width="344dp"
+        android:layout_height="452dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"
+        android:columnCount="1"
+        android:rowCount="4">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Επιλέξτε Κατηγορία"
+            android:textSize="30sp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioGroupCategory"
+            android:checkedButton="@+id/clothesRadioButton"
+            android:weightSum="1"
+            >
+
+            <RadioButton
+                android:id="@+id/clothesRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ρούχα"
+                android:textSize="24sp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/shoesRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Παπούτσια"
+                android:textSize="24sp"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/medicineRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Φάρμακα"
+                android:textSize="24sp"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/moneyRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Χρήματα"
+                android:textSize="24sp"></RadioButton>
+
+        </RadioGroup>
+
+        <TextView />
+
+        <TextView />
+
+        <TextView />
+
+
+        <Button
+            android:id="@+id/buttonNext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onClickNext"
+            android:text="@string/nextLabel"
+            android:textSize="18sp" />
+
+    </GridLayout>
+</FrameLayout>
